@@ -61,6 +61,51 @@ header {
   list-style: none;
 }
 
+#experience {
+  padding: 60px 0;
+  border-bottom: 1px solid #333;
+}
+
+#experience h3 {
+  font-size: 1.8rem;
+  color: #00fff0;
+  margin-bottom: 1rem;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #1e1e1e;
+  border-radius: 8px;
+  border-left: 4px solid #00fff0;
+  box-shadow: 0 2px 8px rgba(0, 255, 255, 0.1);
+}
+
+.experience-item h4 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 0.3rem;
+}
+
+.experience-item .company {
+  font-size: 0.95rem;
+  color: #aaa;
+  margin-bottom: 0.6rem;
+}
+
+.experience-item ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #ddd;
+}
+
+.experience-item ul li {
+  margin-bottom: 6px;
+}
+nav ul li {
+  position: relative;
+}
+
 .nav a {
   color: #fff;
   text-decoration: none;
@@ -123,6 +168,9 @@ section h3 {
 }
 
 .card h4 {
+  color: #00fff0;
+}
+.card span {
   color: #00fff0;
 }
 
