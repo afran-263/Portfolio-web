@@ -38,8 +38,36 @@ header {
 
 #projects {
   border-bottom: 1px solid #686565;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
+
+/* Hide extra cards on mobile */
+@media (max-width: 768px) {
+  .hidden-on-mobile {
+    display: none;
+  }
+
+  .hidden-on-mobile.show {
+    display: block;
+  }
+}
+
+/* Show More button */
+.show-more-btn {
+  margin-top: 1.5rem;
+  padding: 10px 20px;
+  background: #00fff0;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.show-more-btn:hover {
+  background: #00cccc;
+}
+
 
 /* === Navigation === */
 /* === Default (Mobile) === */
@@ -112,7 +140,7 @@ header {
 }
 
 .side-nav ul li a {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #00fff0;
   text-decoration: none;
   font-weight: bold;
@@ -145,7 +173,7 @@ header {
 /* === Hero Section === */
 #hero {
   text-align: center;
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
 
@@ -192,20 +220,20 @@ header {
 
 #about {
   border-bottom: 1px solid #686565;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 /* === Experience Section === */
 /* padding: y_px x_px*/ 
 #experience {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   border-bottom: 1px solid #686565;
 }
 
 #experience h3 {
   font-size: 1.8rem;
   color: #00fff0;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .experience-item {
@@ -244,7 +272,7 @@ section h3 {
   font-size: 1.8rem;
   padding-top: 4rem;
   color: #00fff0;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .grid {
