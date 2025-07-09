@@ -74,7 +74,7 @@ header {
 .menu-toggle {
   position: absolute;
   top: 10px;
-  right: 40px;
+  right: 30px;
   font-size: 2rem;
   color: #00fff0;
   z-index: 1002;
@@ -85,7 +85,7 @@ header {
 @media (min-width: 769px) {
   .menu-toggle {
     top: 10px;       /* change as needed */
-    right: 225px;    /* change as needed */
+    right: 100px;    /* change as needed */
   }
 }
 
@@ -226,7 +226,7 @@ header {
 /* === Experience Section === */
 /* padding: y_px x_px*/ 
 #experience {
-  padding-bottom: 30px;
+  padding-bottom: 3rem;
   border-bottom: 1px solid #686565;
 }
 
@@ -270,7 +270,7 @@ header {
 /* === Skills Section === */
 section h3 {
   font-size: 1.8rem;
-  padding-top: 4rem;
+  padding-top: 2rem;
   color: #00fff0;
   margin-bottom: 2rem;
 }
@@ -311,7 +311,7 @@ section h3 {
 
 #skills {
   border-bottom: 1px solid #686565;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 /* === Contact Form === */
